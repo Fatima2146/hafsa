@@ -1,0 +1,13 @@
+//2. Use a conditional statement to determine whether a number is positive, negative, or zero.
+
+
+let num = prompt("Enter an number?");
+
+if (num>0)
+{console.log("the number is positive")}
+
+else if (num<0)
+{console.log("the number is negative")}
+
+else if (num==0)
+{console.log("the number is zero")}
