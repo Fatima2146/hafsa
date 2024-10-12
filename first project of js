@@ -1,1 +1,9 @@
-first project of js
+//1. Write a JavaScript program that asks the user for their age and then displays a message indicating whether they are eligible to vote (18 or older).
+
+
+let age = prompt("enter your age??");
+
+if(age>=18){
+console.log("you are eligible for vote")}
+
+else{console.log("sorry you are not eligile")}
