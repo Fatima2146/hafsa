@@ -1,0 +1,10 @@
+//5. Write a JavaScript program that asks the user for their grade (A, B, C, D, or F) and then displays a message indicating whether they passed or failed.
+
+
+let grade = prompt("Enter the grades to check your progress ");
+
+if(grade == "A" || grade == "B" || grade == "C")
+{console.log(" you passed!!!")}
+
+else if (grade == "D" || grade == "F" )
+{console.log(" you need to work hard you fail :) ")}
