@@ -1,0 +1,9 @@
+//3. Write a JavaScript program that asks the user for their favorite color and then displays a message indicating whether they like a primary color (red, blue, or yellow, green).
+
+
+let color= prompt("Enter your favourite color");
+
+if(color== "red" || color=="yellow" || color =="blue"){
+console.log("Your fav color is a primary color")}
+
+else {console.log("your fav color is not a primary color")}
